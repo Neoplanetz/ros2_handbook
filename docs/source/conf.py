@@ -37,6 +37,7 @@ release = '0.1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.githubpages',
     'recommonmark'
 ]
 
@@ -62,3 +63,5 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_favicon = 'favicon.ico'
+
+html_baseurl = 'https://neoplanetz.github.io/ros2_handbook/'
